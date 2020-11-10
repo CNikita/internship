@@ -24,20 +24,18 @@
     callback - функция обратного вызова, которая передается в качестве аргумента в другую функцию и выполняется после того, как другая функция завершила выполнение.
     
     4. What is a function declaration and how are its types different?
-    Объявление функции (Function Declaration)
    ```JS
+   // Объявление функции (Function Declaration)
    function sayHi() {
      alert( " Hi" );
    }
    ```
-
-    Функциональное Выражение (Function Expression)
    ```JS
+   // Функциональное Выражение (Function Expression)
    let sayHi = function() {
      alert( "Hi" );
     };
    ```
-    
     Function Declaration обрабатываются перед выполнением блока кода. Они видны во всём блоке.
     Функции, объявленные при помощи Function Expression, создаются, только когда поток выполнения достигает их.
     
