@@ -25,14 +25,18 @@
     
     4. What is a function declaration and how are its types different?
     Объявление функции (Function Declaration)
-    function sayHi() {
-      alert( " Hi" );
-    }
+   ```JS
+   function sayHi() {
+     alert( " Hi" );
+   }
+   ```
 
     Функциональное Выражение (Function Expression)
-    let sayHi = function() {
-      alert( "Hi" );
+   ```JS
+   let sayHi = function() {
+     alert( "Hi" );
     };
+   ```
     
     Function Declaration обрабатываются перед выполнением блока кода. Они видны во всём блоке.
     Функции, объявленные при помощи Function Expression, создаются, только когда поток выполнения достигает их.
@@ -42,8 +46,7 @@
     Если "..." встретился в вызове функции или где-либо ещё, то это «оператор расширения». Он извлекает элементы из итерируемых объектов.
 
     
-#### [Code exercise](https://stackblitz.com/edit/js-block1?file=task.js)
-   [solution (решение)](https://stackblitz.com/edit/js-block1-c33ito?file=task.js)
+#### [Code exercise](https://stackblitz.com/edit/js-block1?file=task.js) - [solution (решение)](https://stackblitz.com/edit/js-block1-c33ito?file=task.js)
 
 #### Block 2: Async
     1. JavaScript, is it synchronous or not?
@@ -65,7 +68,8 @@
     6. Which framework would you choose for a new project? Explain why.
     React самый востребованый
 
-#### [Code exercise](https://stackblitz.com/edit/js-llr1ac-async-task-xqvfc5)
+#### [Code exercise](https://stackblitz.com/edit/js-llr1ac-async-task-xqvfc5) - [solution (решение)](https://stackblitz.com/edit/js-llr1ac-async-task-h8nkfo?file=index.js)
+
 
 #### Block 3: TypeScript
     1. Is it possible to check types in runtime? If so, how?
