@@ -71,8 +71,14 @@
 
 #### Block 3: TypeScript
     1. Is it possible to check types in runtime? If so, how?
+    
     2. What is the difference between private and protected fields?
+    Защищённые поля имеют префикс _. К таким полям необходимо обращаться только из его класса и классов, унаследованных от него, хоть к ним и есть доступ из вне
+    Приватные поля имеют префикс #. Получить доступ к таким полям можно только внутри класса.
+
     3. How do interfaces help in development?
+    
     4. How would you pass arguments into a Class?
+    Для этого используется constructor(arguments)
 #### [Code exercise](https://stackblitz.com/edit/typescript-2xfiqk)
 
