@@ -81,3 +81,9 @@
     4. How would you pass arguments into a Class?
     Для этого используется constructor(arguments)
 #### [Code exercise](https://stackblitz.com/edit/typescript-2xfiqk) - [solution (решение)](https://stackblitz.com/edit/typescript-rdzyev)
+
+code examples:
+https://rolling-scopes-school.github.io/cnikita-JS2020Q3/calculator/
+https://rolling-scopes-school.github.io/cnikita-JS2020Q3/shelter/pages/main/main.html
+https://rolling-scopes-school.github.io/cnikita-JS2020Q3/Momentum/
+https://rolling-scopes-school.github.io/cnikita-JS2020Q3/virtual-keyboard/
