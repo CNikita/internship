@@ -80,5 +80,4 @@
     
     4. How would you pass arguments into a Class?
     Для этого используется constructor(arguments)
-#### [Code exercise](https://stackblitz.com/edit/typescript-2xfiqk)
-
+#### [Code exercise](https://stackblitz.com/edit/typescript-2xfiqk) - [solution (решение)](https://stackblitz.com/edit/typescript-rdzyev)
